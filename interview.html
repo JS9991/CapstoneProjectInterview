@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Scheduling Interface</title>
+    <link rel="stylesheet" href="interview.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Schedule Your Visa Interview</h1>
+        <form id="scheduleForm">
+            <label for="applicantName">Applicant Name:</label>
+            <input type="text" id="applicantName" name="applicantName" required>
+
+            <label for="applicationNumber">Application Number:</label>
+            <input type="text" id="applicationNumber" name="applicationNumber" required>
+
+            <label for="interviewDate">Select Interview Date:</label>
+            <input type="date" id="interviewDate" name="interviewDate" required>
+
+            <label for="interviewTime">Select Interview Time:</label>
+            <select id="interviewTime" name="interviewTime" required>
+                <option value="9:00 AM">9:00 AM</option>
+                <option value="10:00 AM">10:00 AM</option>
+                <option value="11:00 AM">11:00 AM</option>
+                <option value="1:00 PM">1:00 PM</option>
+                <option value="2:00 PM">2:00 PM</option>
+                <option value="3:00 PM">3:00 PM</option>
+            </select>
+
+            <button type="submit">Schedule Interview</button>
+        </form>
+    </div>
+</body>
+</html>
